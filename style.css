@@ -1,0 +1,38 @@
+.formato{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:100px;
+    width:100px;
+    background-color: thistle;
+    padding-top:40px;
+    border-color: mistyrose;
+    border-radius: 10%;
+
+}
+.botao{
+    position: absolute;
+    left: 5%;
+    top:85%;
+    width: 90%;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 20%;
+    border:none;
+    cursor:pointer;
+}
+.nome,.email,.senha{
+    position:absolute;
+    left:6%;
+    padding:10px 10px;
+    width:80%;
+    user-select: none;
+    border-color:black;
+    outline: none;
+}
+.p1,.p2,.p3{
+    margin-left: -2vw;
+    user-select: none;
+
+}
