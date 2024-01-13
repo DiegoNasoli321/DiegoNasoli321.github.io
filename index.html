@@ -5,28 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="style.css">
-     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("ZQ8V_ZIFpRPUF4Jqw");
-   })();
-</script>
-     <script src="script.js"></script>
-       </head>
       <body>
-    <form class="formato" id="formato">
+        <img class="img" src="img/corte3.png" alt="">
+  <form class="formatogrande"></form>
+  <h6 class="h6">CONTACTE-NOS !</h6>
+    <form action="https://api.staticforms.xyz/submit" method="post" class="formato" id="formato">
+      <input type="hidden" name="accessKey" value="78714b7b-7d26-47f7-aa00-3cb666a49f51">
       <p class="p1" id="p1">Nome</p>
-      <input class="campo1" type="text" name="nome" id="nome" placeholder="Digite sdfasvfveu nome afdgdqui ! ">
+      <input minlength="15" class="campo1" type="text" name="name" id="name" placeholder="Digite seu nome aqui">
       <br><br>
       <p class="p2" >Email</p>
-      <input class="campo2" type="text" name="email" id="email" placeholder="Digite seu email aqui !" >
+      <input minlength="10" class="campo2" type="text" name="email" id="email" placeholder="Digite seu email aqui" >
      <br><br>
-     <p class="p3" >Senha</p>
-     <input class="campo3" type="text" name="senha" id="senha" placeholder="Digite sua senha aqui ! "> 
-     <input onclick="EnviarEmail()"  class="botao" type="submit" id="botao" value="Enviar" >
-
-  </form>
+     <p class="p3" >Mensagem</p>
+     <textarea rows="7" minlength="20" maxlength="50" class="campo3" name="message" id="message" placeholder="Escreva uma mensagem"> </textarea>
+     <input class="botao" type="submit" id="botao" value="Submit">
+   </form>
 </body>
 </html>
