@@ -8,6 +8,7 @@
     background-color: rgba(146, 75, 9, 0.384);
     padding-top:40px;
     border-radius: 10%;
+    
 }
 .botao{
     position: absolute;
@@ -26,13 +27,16 @@
     padding:8px 20px;
     width:80%;
     user-select: none;
-    border-color:rgb(245, 242, 242);
+    border-color:rgb(0, 0, 0);
     outline: none;
 }
 .p1,.p2,.p3{
     margin-left: -5vw;
     user-select: none;
     color: rgb(71, 29, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
 
 }
 .img{
@@ -40,12 +44,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-40%);
+    align-content: center;
+    justify-content: center;
+
+  
 }
 .formatogrande{
-    position:fixed;
+    position:absolute;
     padding: 100%;
     z-index: -1;
     background-color: rgb(119, 69, 28);
+  
 
 }
 .h6{
@@ -55,4 +64,13 @@
     transform: translate(-50%,-60vh);
     z-index: 10;
     font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:450px){
+    .h6,.formato,.img{
+    top: 70%;
+    left: 70%;
+    }
+    
 }
