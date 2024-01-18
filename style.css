@@ -1,5 +1,5 @@
 .formato{
-    position:absolute;
+    position:fixed;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -11,7 +11,7 @@
     
 }
 .botao{
-    position: absolute;
+    position:fixed;
     left: 5%;
     top:85%;
     width: 90%;
@@ -22,7 +22,7 @@
     cursor:pointer;
 }
 .campo1,.campo2,.campo3{
-    position:absolute;
+    position:fixed;
     left:6%;
     padding:8px 15px;
     width:80%;
@@ -43,7 +43,6 @@
     left: 50%;
     transform: translate(-50%,-50%);
 
-  
 }
 
     body{
