@@ -14,7 +14,7 @@
     position:fixed;
     left: 5%;
     top:85%;
-    width: 88%;
+    width: 91%;
     padding: 10px 15px;
     font-size: 15px;
     border-radius: 5%;
@@ -60,15 +60,15 @@
     .formato{
         padding:210px 0px;
         padding-top: 0px;
-        width:260px;
-        transform: translate(-45%,-50%);
+        width:250px;
+        transform: translate(-40%,-40%);
     }
     .img{
         width:75vh;
         height:75vh;
     }
     .p1,.p2,.p3{
-        margin-left:2vh;
+        margin-left:3vh;
     }
     .campo1,.campo2,.campo3{
         padding: 10px 10px;
@@ -77,7 +77,7 @@
   
     }
  .botao{
-    left:10%;
-    width:77%
+    margin-left: 1vh;
+    width:200px
  }
 }
