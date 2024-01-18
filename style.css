@@ -14,8 +14,8 @@
     position:fixed;
     left: 5%;
     top:85%;
-    width: 90%;
-    padding: 10px 10px;
+    width: 88%;
+    padding: 10px 15px;
     font-size: 15px;
     border-radius: 5%;
     border:none;
@@ -24,7 +24,7 @@
 .campo1,.campo2,.campo3{
     position:fixed;
     left:6%;
-    padding:8px 15px;
+    padding:10px 20px;
     width:80%;
     user-select: none;
     border-color:rgb(0, 0, 0);
@@ -58,16 +58,19 @@
   @media (max-width:767px){
 
     .formato{
-        padding:200px 0px;
+        padding:200px 20px;
         padding-top: 0px;
-        width:400px
-        
+        width:300px;
+        transform: translate(-45%,-50%);
     }
     .img{
         width:75vh;
         height:75vh;
     }
     .p1,.p2,.p3{
-        margin-left:2vh;
+        margin-left:1vh;
+    }
+    .campo1,.campo2,.campo3{
+        padding: 10px 10px;
     }
   }
